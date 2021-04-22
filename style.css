@@ -1,26 +1,123 @@
-#app {
-    width: 100%;
-    height: 800px;
-    background-color: aliceblue;
-}
-
-.container
-{
+body{
+    margin: 0;
+    padding-top: 800px;
     text-align: center;
+     background:linear-gradient(#cfffad 0%, #a80000 100% );
 }
-
-/*Start your code from here */
-#mycarousel{
-    background-color: aquamarine;
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    height: 175px;
+}
+#welcome{
+    height: 800px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background:linear-gradient(#cfffad 0%, #a80000 100% );
+    color: #FFFFFF;
+    display: table;
+    width: 100%;
+    height:  100%;
+    z-index:10;
+    position: absolute;
+    opacity:0.83;
+        
+        
     
 }
-#mycarousel img{
-   height: 300px;
-    margin-top: 35px;
+.sec1
+{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    
 }
-.carousel-inner p{
-    margin-bottom: 15px;
-    margin-top: 15px;
-    color: burlywood;
-    font-size: 20px;
+
+h1{
+    font-size: 50px;
+    font-family:sans-serif;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+h2{
+  font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 300;  
+}
+#Home{
+    padding: 50px;
+     text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 300;
+    background: linear-gradient(#a4d7db 0%, #c7a200 100%);
+   
+}
+.sec2{
+  font-size: 30px;
+    font-family:sans-serif;
+      height: 6px;
+    width: 700px;
+    margin: 8px auto;
+}
+p{
+  margin: 25px auto;
+    font-size: 18px;
+    max-width: 456px;
+    line-height: 1.3;
+        
+    
+}
+.links{
+    padding-right:30px;
+    padding-left: 30px;
+    font-family: "Syne Mono"; 
+    font-size: 30px;
+    float: left;
+    display: inline;    
+    
+}
+
+.Menu{
+   font-family: "Syne Mono"; 
+    position: fixed;
+    list-style: none;
+    z-index:10;
+    top: 0px;
+    width: 100%SS
+    
+}
+.links:hover{
+    background-color: crimson;
+    text-decoration:underline;
+}
+#vid{
+    text-align: center;
+    
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+#Writing{
+    text-shadow: none;
+    text-decoration: underline;
+    color: aqua;
+    font-size: 30px;
+}
+
+#work{
+    font-size: 30px;
+}
+#contacts{
+    width: 100%;
+    font-size: 30px;
 }
